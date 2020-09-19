@@ -1,0 +1,31 @@
+@media screen and (max-width: 1050px) {
+
+    #watch-img {
+        height: 300px;
+    }
+
+    .watch-description-wrapper {
+        width: 700px;
+    }
+
+    .watch-description-wrapper h3 {
+        font-size: 1rem;
+    }
+
+    .watch-description-wrapper h4 {
+        font-size: 0.9rem;
+    }
+
+    .headline {
+        font-size: 1.5rem;
+    }
+
+    .watch-description-wrapper p {
+        font-size: 0.7rem;
+    }
+
+
+    .header {
+        flex-direction: column;
+    }
+}

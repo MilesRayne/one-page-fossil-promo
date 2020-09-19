@@ -104,8 +104,9 @@ ul {
 }
 
 #watch-img {
-    height: 500px;
+    height: 400px;
     margin: 32px 64px;
+    transition: 1s;
 }
 
 .watch-description-wrapper {
@@ -210,4 +211,12 @@ footer {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
+}
+
+@media screen and (max-width: 1050px) {
+
+    header h1 {
+        color: red !important;
+        background-color: black;
+    }
 }
