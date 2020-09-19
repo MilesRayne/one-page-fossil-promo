@@ -1,7 +1,7 @@
 # one-page-fossil-promo
-Dokumentacija sajta za potrebe kursa za saradnike.
+>Dokumentacija sajta za potrebe kursa za saradnike.
 
->Opis ideje
+##Opis ideje
 
 Sajt je napravljen sa idejom da promoviše novi proizvod - sat kompanije Fossil, koji ona uskoro izbacuje na tržište.
 Ova ideja je odabrana jer se potrebe takvog sajta vecinski poklapaju sa zahtevima zadatka koji je dat:
@@ -12,7 +12,7 @@ Ova ideja je odabrana jer se potrebe takvog sajta vecinski poklapaju sa zahtevim
 Sajt je namenjen da ukratko opiše proizvod i omogući potencijalnom kupcu da ga poruči.
 
 
->Struktura sajta
+##Struktura sajta
 
 Sajt se sastoji od: 
 Jedne .html stranice.
@@ -24,7 +24,7 @@ Stranica sajta podeljena je na 3 sekcije:
 2. Sekcija detalja o proizvodu, koja prikazuje specifikacije sata i daje detaljne informacije sada zainteresovanim klijentima.
 3. Sekcija poručivanja proizvoda, tj. sekcija koja sadrži formu koja treba da omogući klijentu da poruči proizvod.
 
->JavaScript funkcije
+##JavaScript funkcije
 
 Postoje dve kljucne funkcionalnosti koje su omogucene radom funkcija unutar .js fajla:
 - Specifikacije se ne nalaze upisane u sam .html fajl, vec se po ucitavanju stranice preko funkcije fillDetails()
