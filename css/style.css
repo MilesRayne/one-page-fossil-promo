@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/background-image.jpg);
+    background-color: white;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+}
+
+header {
+    margin-top: 2vh;
+}
+
+header h1 {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+
+.logo-bar {
+    background-color: rgba(255, 228, 196, 0.363);
+    background-image: linear-gradient(15deg, rgba(71, 1, 16, 0.233), rgba(255, 228, 196, 0.363));
+    border-bottom: solid 2px rgb(255, 255, 255);
+}
+
+.logo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+.menu-bar {
+    background-color: rgba(223, 178, 141, 0.363)
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch-display-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.watch-display-wrapper h1 {
+    font-size: 3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.watch-display-wrapper h2 {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#watch-img {
+    height: 600px;
+}
+
+.watch-description-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-wrapper {
+    display: flex;
+    background-color: rgba(122, 122, 112, 0.445);
+    height: 400px;
+    width: 500px;
+    border-radius: 25px;
+}
