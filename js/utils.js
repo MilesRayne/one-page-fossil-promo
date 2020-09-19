@@ -112,3 +112,7 @@ function saveToLocalStorage() {
     form.innerHTML += `<br><br><p>Your order has been sent (and saved to LocalStorage hehe)</p>`
 
 }
+
+function moveToPreOrder() {
+    window.location.hash = "preorder";
+}
