@@ -28,4 +28,99 @@
     .header {
         flex-direction: column;
     }
+
+    .menu-bar {
+        margin-right: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+
+    .header a {
+        width: 100px;
+        font-size: 1rem;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .watch-display-wrapper h1 {
+        font-size: 4rem;
+        padding: 0 20px 0 20px;
+    }
+
+    .watch-display-wrapper h2 {
+        font-size: 2rem;
+    }
+
+    ul {
+        width: 100%;
+    }
+
+    .watch-description-wrapper {
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .pre-order-wrapper {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header h1 {
+        display: none;
+    }
+
+    .watch-display-wrapper h1 {
+        font-size: 3rem;
+        padding: 0 20px 0 20px;
+    }
+
+    .watch-display-wrapper h2 {
+        font-size: 1.5rem;
+    }
+
+    .watch-description-wrapper {
+        width: 330px;
+    }
+
+    .pre-order-wrapper {
+        width: 330px;
+        margin-bottom: 32px;
+    }
+
+    .pre-order-wrapper h2 {
+        font-size: 1rem;
+    }
+
+    .pre-order-wrapper input[type=text],
+    input[type=tel] {
+        font-size: 1rem;
+        min-width: 250px;
+        align-self: left;
+    }
+
+    .radio-option {
+        width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-section {
+        width: 330px;
+    }
+
+    .details-wrapper {
+        width: 330px;
+    }
+
+    .attribute {
+        font-size: 0.7rem;
+    }
 }
