@@ -89,3 +89,26 @@ function reduceHeaderSize() {
     }
 
 })()
+
+function saveToLocalStorage() {
+
+    let form = document.querySelector("#preorder-form");
+
+    let formElements = form.elements;
+
+    let data = {};
+
+    for (element of formElements) {
+
+        if ((element.tagName === 'INPUT' && element.type != 'submit') && (element.type != 'radio' || (element.type === 'radio' && element.checked))) {
+            data[element.name] = element.value;
+            console.log("data[" + element.name + "] = " + data[element.name]);
+        }
+    }
+
+    localStorage.setItem("formData", JSON.stringify(data));
+
+
+    form.innerHTML += `<br><br><p>Your order has been sent (and saved to LocalStorage hehe)</p>`
+
+}

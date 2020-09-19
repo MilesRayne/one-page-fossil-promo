@@ -60,7 +60,7 @@
 
         <div class="pre-order-wrapper" id="preorder-anchor">
             <h1>PRE-ORDER</h1>
-            <form>
+            <form id="preorder-form" action="" onsubmit="saveToLocalStorage(); return false;">
 
                 <h2>Order contact information</h2>
                 <div class="form-section">
@@ -78,7 +78,7 @@
                     <label for="address">Street Address*</label>
                     <input type="text" name="address" required>
                     <label for="address2">Street Address line 2 (Apt, Suite, etc)</label>
-                    <input type="text" name="address2" required>
+                    <input type="text" name="address2">
                     <label for="country">Country*</label>
                     <input type="text" name="country" required>
                     <label for="city">City*</label>
