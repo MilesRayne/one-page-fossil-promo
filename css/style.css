@@ -47,7 +47,7 @@ ul {
     padding: 0;
 }
 
-a {
+.header a {
     font-size: 1.5rem;
     margin: 0px 8px;
     display: block;
@@ -62,7 +62,7 @@ a {
     transition: 0.3s;
 }
 
-a:hover {
+.header a:hover {
     background-color: rgba(255, 255, 255, 0.281);
 }
 
@@ -147,7 +147,7 @@ a:hover {
 }
 
 .details-wrapper {
-    margin: 128px 0px;
+    margin: 128px 0px 64px 0px;
     display: flex;
     flex-direction: column;
     background-color: rgba(160, 160, 160, 0.096);
@@ -200,16 +200,14 @@ a:hover {
     background-image: linear-gradient(32deg, rgba(255, 155, 88, 0.884), rgba(255, 187, 231, 0.336));
 }
 
+
 footer {
     display: flex;
-    background-color: rgba(255, 228, 196, 0.363);
-    background-image: linear-gradient(15deg, rgba(71, 1, 16, 0.233), rgba(255, 228, 196, 0.363));
+    background-color: rgba(0, 0, 0, 0.363);
     height: 36px;
-    border-top: white solid 2px;
     align-items: center;
     justify-content: center;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 900;
-    text-shadow: 1px 1px #00000063;
+    font-weight: 400;
 }

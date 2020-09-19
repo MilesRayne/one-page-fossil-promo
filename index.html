@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form-style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Damion&family=Source+Sans+Pro&:wght@400;900&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
+    <a name="top"></a>
 
     <div class="header">
         <div class="logo-bar">
@@ -19,16 +21,16 @@
         </div>
         <div class="menu-bar">
             <ul>
-                <li><a class="menu-link" href="/">RILEY</a></li>
-                <li><a class="menu-link" href="/">PRODUCT DETAILS</a></li>
-                <li><a class="menu-link" href="/">PRE-ORDER</a></li>
+                <li><a class="menu-link" href="#top">RILEY</a></li>
+                <li><a class="menu-link" href="#details">PRODUCT DETAILS</a></li>
+                <li><a class="menu-link" href="#preorder">PRE-ORDER</a></li>
             </ul>
         </div>
     </div>
 
     <div class="content-wrapper">
-        <div class="watch-display-wrapper">
-            <h1>RILEY ROSE</h1>
+        <div class="watch-display-wrapper" id="display-anchor">
+            <h1>RILEY GOLD</h1>
             <h2>A luxury watch - redefined</h2>
             <div class="watch-description-wrapper">
                 <img src="img/watch.png" id="watch-img">
@@ -45,6 +47,8 @@
             </div>
 
         </div>
+
+        <a name="details"></a>
 
         <div class="details-wrapper">
             <h1>PRODUCT DETAILS</h1>
@@ -146,8 +150,65 @@
             </div>
 
         </div>
+        <a name="preorder"></a>
+
+        <div class="pre-order-wrapper" id="preorder-anchor">
+            <h1>PRE-ORDER</h1>
+            <form>
+
+                <h2>Order contact information</h2>
+                <div class="form-section">
+
+                    <label for="email">Email*</label>
+                    <input type="text" name="email" required>
+                </div>
+
+                <h2>Delivery</h2>
+                <div class="form-section">
+                    <label for="name">First name*</label>
+                    <input type="text" name="name" required>
+                    <label for="name">Last name*</label>
+                    <input type="text" name="surname" required>
+                    <label for="address">Street Address*</label>
+                    <input type="text" name="address" required>
+                    <label for="address2">Street Address line 2 (Apt, Suite, etc)</label>
+                    <input type="text" name="address2" required>
+                    <label for="country">Country*</label>
+                    <input type="text" name="country" required>
+                    <label for="city">City*</label>
+                    <input type="text" name="city" required>
+                    <label for="zip">ZIP Code*</label>
+                    <input type="text" name="zip" required>
+                    <label for="phone">Phone Number*</label>
+                    <input type="tel" name="phone" required>
+
+
+                </div>
+                <h2>Shipping Method</h2>
+                <div class="form-section">
+                    <div class="radio-option">
+                        <input type="radio" id="standard-delivery" name="delivery" value="standard">
+                        <label for="standard-delivery">Standard Delivery ($0,00)</label>
+                    </div>
+
+                    <div class="radio-option">
+                        <input type="radio" id="second-day-delivery" name="delivery" value="second">
+                        <label for="second-day-delivery">Second Day Delivery ($4,99)</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="next-day-delivery" name="delivery" value="next">
+                        <label for="next-day-delivery">Next Day Delivery ($14,99)</label>
+                    </div>
+                </div>
+
+                <input type="submit" value="CONFIRM">
+
+            </form>
+        </div>
 
     </div>
+
+
 
     <footer>
         <p>&#169;2020 Milos Rajkovic</p>
