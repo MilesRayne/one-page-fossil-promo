@@ -81,4 +81,9 @@ input[type=submit] {
     font-weight: 700;
     font-size: 1rem;
     padding: 16px 64px 11px 64px;
+    transition: 0.3s;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(255, 29, 29);
 }
