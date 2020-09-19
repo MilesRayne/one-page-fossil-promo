@@ -4,7 +4,7 @@
 
 body {
     background-image: url(../img/background-image.jpg);
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     background-position: center 0px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -52,7 +52,7 @@ a {
     margin: 0px 8px;
     display: block;
     border-radius: 30px;
-    width: 200px;
+    width: 240px;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .watch-display-wrapper h1 {
-    font-size: 9rem;
+    font-size: 6rem;
     font-family: 'Source Sans Pro', sans-serif;
     background: -webkit-linear-gradient(60deg, rgb(255, 199, 243), rgb(252, 204, 132));
     -webkit-background-clip: text;
@@ -96,15 +96,15 @@ a:hover {
 }
 
 .watch-display-wrapper h2 {
-    margin: 15px 0px;
-    font-size: 2rem;
+    margin: 0px 0px 30px 0px;
+    font-size: 3rem;
     font-family: 'Damion', cursive;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px #0000001e;
+    text-shadow: 1px 1px #00000063;
 }
 
 #watch-img {
-    height: 600px;
+    height: 500px;
     margin: 32px 64px;
 }
 
@@ -113,22 +113,91 @@ a:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.144);
+    background-color: rgba(160, 160, 160, 0.096);
     width: 1000px;
     border-radius: 50px;
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.123)
 }
 
 .description-text-wrapper {
+    background-color: rgba(0, 0, 0, 0.096);
+    padding: 48px 32px;
+    border-radius: 32px;
     flex-grow: 2;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin: 32px 32px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.headline {
+    font-size: 1.7rem;
+}
+
+.description-text-wrapper h3 {
+    margin-bottom: 16px;
+}
+
+.description-text-wrapper h4 {
+    margin-bottom: 32px;
 }
 
 .details-wrapper {
+    margin: 128px 0px;
     display: flex;
-    background-color: rgba(122, 122, 112, 0.445);
-    height: 400px;
+    flex-direction: column;
+    background-color: rgba(160, 160, 160, 0.096);
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.123);
     width: 500px;
     border-radius: 25px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 16px 0px;
+}
+
+.details-wrapper h1 {
+    margin: 16px 0px;
+    text-shadow: 1px 1px #0000003f;
+}
+
+.attribute {
+    background-color: rgba(0, 0, 0, 0.096);
+    margin: 5px 25px;
+    padding: 8px 0px 5px 32px;
+    text-align: left;
+    border-radius: 16px;
+}
+
+.attribute .label {
+    font-weight: bold;
+}
+
+.attribute .value {
+    padding-left: 8px;
+}
+
+#preorder-btn {
+    border: none;
+    border-radius: 64px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 16px 0px 10px 0px;
+    width: 150px;
+    margin-top: 48px;
+    background-color: rgba(255, 255, 255, 0.247);
+    /* background-image: linear-gradient(32deg, rgba(53, 53, 53, 0.247), rgba(199, 199, 199, 0.199)); */
+    color: rgb(255, 255, 255);
+
+}
+
+#preorder-btn:hover {
+    background-image: linear-gradient(32deg, rgba(255, 155, 88, 0.884), rgba(255, 187, 231, 0.336));
 }
 
 footer {
@@ -142,4 +211,5 @@ footer {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
+    text-shadow: 1px 1px #00000063;
 }

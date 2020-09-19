@@ -19,7 +19,7 @@ function reduceHeaderSize() {
         for (link of x) {
             link.style.fontSize = "1.5rem";
             link.style.padding = "10px 0px";
-            link.style.width = "200px";
+            link.style.width = "240px";
         }
     }
 }
