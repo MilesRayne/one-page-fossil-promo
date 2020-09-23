@@ -84,7 +84,7 @@ function saveToLocalStorage() {
     localStorage.setItem("formData", JSON.stringify(data));
 
 
-    form.innerHTML += `<br><br><p>Your order has been sent (and saved to LocalStorage hehe)</p>`
+    form.innerHTML += `<br><br><p>Your order has been confirmed and saved to LocalStorage.</p>`
 
 }
 
